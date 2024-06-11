@@ -1,0 +1,44 @@
+.menu{
+    opacity: 0.3;
+    padding: 0px; margin: 10px -10px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background: #494949;
+    height: 1500px;
+}
+
+.topheader{
+    padding: 10px; margin: -8px -10px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    height: 240px;
+}
+body{
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 300;
+    color: #696969;
+}
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+.menuImg>a>img{
+    margin-top: -20px;
+    padding-right:  10px;
+    height: 60px;
+}
+.menuImg>a{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 70%; 
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}

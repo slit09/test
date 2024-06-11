@@ -1,0 +1,14 @@
+.banner {
+    background: url(images/slider.jpg)#696969;
+    background-blend-mode: multiply,normal;
+    padding: 0px; margin: 10px 10px;
+
+    display: flex;
+    z-index: 99999;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 847px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
